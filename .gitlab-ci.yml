@@ -1,0 +1,13 @@
+image: ruby:2.6.5
+
+pages:
+  stage: deploy
+  script:
+  - gem install bundler -v 2.0.2
+  - bundle install
+  - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - pages
