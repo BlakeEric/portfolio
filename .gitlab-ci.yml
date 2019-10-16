@@ -2,6 +2,10 @@ image: ruby:2.6.5
 
 pages:
   stage: deploy
+  cache:
+    key: gems
+    paths:
+      - vendor/bundle
   script:
   - gem install bundler -v 2.0.2
   - bundle install
