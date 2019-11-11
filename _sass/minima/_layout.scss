@@ -218,23 +218,41 @@
   @include relative-font-size(1.75);
 }
 
+.post-list-excerpt {
+  color: $grey-color;
+}
+
+.postsSection {
+  border-top: 1px solid $grey-color-light;
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
 
   > li {
     margin-bottom: $spacing-unit;
+    .post-meta {
+      margin: .5rem 0;
+      display: inline-block;
+    }
+    a {
+      text-decoration: none;
+      h3 {
+        margin: 0;
+      }
+    }
   }
 }
 
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  text-transform: uppercase;
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
 }
 
 
@@ -250,7 +268,7 @@
 .post-content h1 {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1.25;
 
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.625);
@@ -258,6 +276,7 @@
 }
 
 .post-content {
+  line-height: 1.75;
   margin-bottom: $spacing-unit;
 
   h2 {
