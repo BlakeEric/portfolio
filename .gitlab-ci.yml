@@ -2,14 +2,11 @@ image: ruby:2.6.5
 
 pages:
   stage: deploy
-  cache:
-    key: gems
-    paths:
-      - vendor/bundle
   script:
   - gem install bundler -v 2.0.2
   - bundle install
   - bundle exec jekyll build -d public
+  - find public \( -name '*.html' -o -name '*.css'  -o -name '*.woff' -o -name '*.woff2' \) -print0 | xargs -0 gzip -9 -kv
   artifacts:
     paths:
     - public
