@@ -10,6 +10,7 @@
 
 
 html {
+-webkit-font-smoothing: antialiased;
  scroll-behavior: smooth;
 }
 
@@ -45,11 +46,11 @@ body {
 
 
 @font-face {
-  font-family: "Oxygen-Bold";
-  src: url("../../assets/fonts/oxygen-bold.woff") format("woff"),
-    url("../../assets/fonts/oxygen-bold.woff2") format("woff2");
-  font-weight: bold;
+  font-family: 'Oxygen-Bold';
+  src: url("../../assets/fonts/oxygen-bold.woff2") format("woff2");
   font-style: normal;
+  font-weight: 700;
+  font-display: swap;
 }
 
 

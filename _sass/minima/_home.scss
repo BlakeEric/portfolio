@@ -4,12 +4,6 @@
   padding: 0;
 }
 
-
-.global-insetContent {
-  @extend .wrapper;
-  overflow: auto;
-}
-
 .homePage-hero {
    background-color: #1779ba;
    background-image: linear-gradient(to left top,rgb(78,171,233),rgb(15,77,118));
@@ -24,15 +18,14 @@
  }
  .homePage-hero-content {
    color: white;
+   font-size: 1.375rem;
+   margin-top: 1.5rem;
  }
  .homePage-hero-inner {
    overflow: visible;
    height: auto;
  }
  @media screen and (min-width: 600px) {
-   .homePage-hero-headline {
-     font-size: 2.25rem;
-   }
    .homePage-hero-content {
      font-size: 1.5rem;
    }
@@ -105,7 +98,6 @@
 .aboutSection-content {
   text-align: center;
   color: #777;
-  line-height: 1.4;
 }
 
 @media screen and (min-width: 650px) {
