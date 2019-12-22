@@ -14,8 +14,6 @@
 
 .site-title {
   @include relative-font-size(1.25);
-  // font-family: 'Oxygen-Bold', sans-serif;
-  // font-weight: 700;
   margin-bottom: 0;
   float: left;
   color: $grey-color-dark;
@@ -44,7 +42,7 @@
 
 .site-nav {
   position: absolute;
-  top: 9px;
+  top: 13px;
   right: $spacing-unit / 2;
   background-color: $background-color;
   border: 1px solid $grey-color-light;
@@ -93,6 +91,10 @@
     display: block;
     padding: 5px 10px;
     text-decoration: none;
+    font-weight: 500;
+    &:hover,&:focus {
+      color: navy;
+    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -213,16 +215,8 @@
   @include relative-font-size(2);
 }
 
-// .post-list-heading {
-//   @include relative-font-size(1.75);
-// }
-
 .post-list-excerpt {
   color: $grey-color;
-}
-
-.postsSection {
-  border-top: 1px solid $grey-color-light;
 }
 
 .post-list {
@@ -247,7 +241,8 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
-  text-transform: uppercase;
+  font-size: 80%;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 }
 
 .post-link {
@@ -266,18 +261,23 @@
 .post-title,
 .post-content h1 {
   line-height: 1.25;
-
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.25);
   }
 }
+.h-entry .post-header h1{
+  font-family: $base-font-family;
+}
 
 .post-content {
-
   p {
     font-size: 20px;
     line-height: 1.75;
-    color: #222;
+    color: #3d3d3d;
+    margin: 1.5rem 0;
+    strong {
+      color: #222;
+    }
   }
 
   margin-bottom: $spacing-unit;
@@ -301,6 +301,10 @@
   }
 }
 
+.pagination {
+  list-style: none;
+  margin-left: 0;
+}
 
 /**
  * Grid helpers
