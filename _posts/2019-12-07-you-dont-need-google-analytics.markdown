@@ -5,10 +5,10 @@ date: 2019-12-07 15:59:17 -0700
 categories: projects
 ---
 
-## If you prioritize accessibility, usability, and privacy in front-end development then Google Analytics is not your friend.
+## If you prioritize accessibility, usability, and privacy in front-end development, then Google Analytics is not your friend.
 <!--more-->
 
-Have you ever noticed how much Javascript gets loaded on big news sites? As of this writing [Wired's website](https://wired.com) loads __over 3MB of Javascript files alone__, making it basically unusable for anyone with a slow internet connection. Tracking scripts provided by Google, Facebook, and their friends are responsible for a large portion of this bloat. These scripts are used to monitor your behavior around the internet to ensure that the ads you see are sufficiently creepy.
+Have you ever noticed how much Javascript gets loaded on big news sites? As of this writing [Wired's website](https://wired.com) loads __over 3MB of Javascript files alone__, making it almost unusable for anyone with a slow internet connection. Tracking scripts provided by Google, Facebook, and their friends are responsible for a large portion of this bloat. These scripts are used to monitor your behavior around the internet to ensure that the ads you see are sufficiently creepy.
 
 I used to work for a small design/development agency where adding the Google Analytics script served as our stamp of completion just before turning a project over to the client. Even though many of our clients only used the platform to track general page views (or not at all) we always included it because we assumed "they might need it, someday". (That is the same logic you would use to convince yourself not to throw away that pair fingerless gloves from that 80's office party seven years ago.)
 
@@ -32,7 +32,7 @@ __It's a privacy disaster.__
 
 __1. Remove analytics tracking completely:__ In some cases the only piece of data that is actively monitored is user traffic. Some hosting platforms provide visitor metrics by default.
 
-__2. Use log analytics:__ Software exists that can turn your raw server logs into a set of organized statistics with many of the same features as Google Analytics. Take a look at [GoAccess](https://goaccess.io/) for an example.
+__2. Use log analytics:__ Software exists that can turn your raw server logs into a set of organized statistics with many of the same features as Google Analytics. Take a look at [GoAccess](https://goaccess.io/) as an example.
 
 __3. Use an image tracking solution:__ Image tracking works by placing a small `<img>` tag in the html of a website. When the browser makes a request to the url set as the `src` attribute in the image, the analytics service logs data from the IP address that made the request. This approach requires no Javascript and can generate detailed user reports without sacrificing privacy.
 

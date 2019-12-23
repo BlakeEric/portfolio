@@ -7,7 +7,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <section aria-labelledby="post-list-heading" class="postsSection">
+    <section id="posts" aria-labelledby="post-list-heading" class="postsSection">
       <div class="wrapper">
       <h2 class="post-list-heading">{{ page.list_title | default: "Recent Posts" }}</h2>
         <ul class="post-list">
@@ -24,6 +24,9 @@ layout: default
           </li>
           {%- endfor -%}
         </ul>
+        <a class="post-link" href="{{ 'posts' | relative_url }}">
+          View All &rarr;
+        </a>
       </div>
     </section>
     <!-- <p class="feed-subscribe">
