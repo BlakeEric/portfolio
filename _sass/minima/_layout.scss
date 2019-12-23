@@ -13,7 +13,7 @@
 }
 
 .site-title {
-  @include relative-font-size(1.25);
+  @include relative-font-size(1.125);
   margin-bottom: 0;
   float: left;
   color: $grey-color-dark;
@@ -270,10 +270,13 @@
 }
 
 .post-content {
+  strong {
+    font-weight: 600;
+  }
   p {
     font-size: 20px;
     line-height: 1.75;
-    color: #3d3d3d;
+    color: #494949;
     margin: 1.5rem 0;
     strong {
       color: #222;
