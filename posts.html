@@ -1,0 +1,47 @@
+---
+layout: archive
+title: Posts
+permalink: posts
+pagination:
+  enabled: true
+  page_path: posts
+  trail:
+    before: 1
+    after: 1
+jsarr:
+  - assets/scripts/scroll.js
+---
+
+
+
+<!-- This loops through the paginated posts -->
+<ul class="post-list">
+{% for post in paginator.posts %}
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <h3 class="post-list-post-title">{{ post.title | escape }}</h3>
+    </a>
+    <span class="post-meta">{{ post.date | date: date_format }}</span>
+    {%- if site.show_excerpts -%}
+      <p class="post-list-excerpt">{{ post.excerpt | strip_html }}</p>
+    {%- endif -%}
+  </li>
+{% endfor %}
+</ul>
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<ul class="pagination">
+  {% if paginator.previous_page %}
+  <li>
+    <a href="{{ paginator.previous_page_path | prepend: relative_url }}">&larr; Newer</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li>
+    <a href="{{ paginator.next_page_path | prepend: relative_url }}">Older &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
