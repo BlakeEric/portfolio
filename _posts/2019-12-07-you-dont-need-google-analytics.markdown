@@ -2,7 +2,6 @@
 layout: post
 title: "You Don't Need Google Analytics"
 date: 2019-12-07 15:59:17 -0700
-categories: projects
 ---
 
 ## If you prioritize accessibility, usability, and privacy in front-end development, then Google Analytics is not your friend.
