@@ -1,3 +1,5 @@
 {
-  "cleanUrls": true
+  "name": "portfolio",
+  "cleanUrls": true,
+  "trailingSlash": false
 }
