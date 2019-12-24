@@ -9,8 +9,8 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <section id="posts" aria-labelledby="post-list-heading" class="postsSection">
       <div class="wrapper">
-        <h2 class="post-list-heading">{{ page.list_title | default: "Recent Posts" }}</h2>
-        <p class="post-list-label">Opinionated writings about the web and front-end development</p>
+        <h2 id="post-list-heading" class="post-list-heading">{{ page.list_title | default: "Recent Posts" }}</h2>
+        <p class="post-list-label">Highly opinionated writings about the web and front-end development.</p>
         <ul class="post-list">
           {%- for post in site.posts -%}
           <li>
