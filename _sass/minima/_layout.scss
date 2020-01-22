@@ -227,9 +227,14 @@
     margin-bottom: $spacing-unit;
     .post-meta {
       margin: .5rem 0;
-      display: inline-block;
+      font-size: $small-font-size;
+      color: $grey-color;
+      font-size: 80%;
+      font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+      display: block;
     }
-    a {
+    .post-link {
+      display: inline-block;
       text-decoration: none;
       h3 {
         margin: 0;
@@ -238,16 +243,7 @@
   }
 }
 
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-  font-size: 80%;
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-}
 
-.post-link {
-  display: block;
-}
 
 
 
@@ -256,6 +252,13 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  .post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+    font-size: 80%;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    display: block;
+  }
 }
 
 .post-title,
