@@ -17,7 +17,7 @@
             <h2 id="post-list-heading" class="post-list-heading">{{ page.list_title | default: "Recent Posts" }}</h2>
             <p class="post-list-label">Highly opinionated writings about the web and front-end development.</p>
             <ul class="post-list">
-              {%- for post in site.posts -%}
+              {%- for post in site.posts limit:3 -%}
               <li>
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <a class="post-link" href="{{ post.url | relative_url }}">
