@@ -4,7 +4,7 @@ title: "Web Development Beginner’s (Free) Study Guides"
 date: 2020-01-24 12:19:07 -0700
 ---
 
-## Fifteen free steps to get started in web development.
+## Seventeen free steps to get started in web development.
 <!--more-->
 
 This is the roadmap I wish I had when I first started coding, a sequential list of free, quality resources designed to help beginners get started in front-end web development. There are tons of great free resources out there, but it's hard to know where to start, what to learn, and how to use those skills in the real world. These study guides cover the basics of JavaScript, HTML, and CSS using what I've found to be the most effective online learning platforms.
@@ -56,31 +56,45 @@ __10. Integrating JS + HTML__
 
 Use HTML and JavaScript together to create an interactive webpage by finishing the remaining sections on  **Watch and Code**. Complete the remaining lessons on [Watch and Code](https://watchandcode.com/p/practical-javascript)
 
+__11. Deploy your *Watch and Code* Project__
+
+Text here
+
 ## Add Some CSS
 
-__11. What is CSS?__
+__12. What is CSS?__
 
 Read [This introduction to CSS](https://www.w3schools.com/Css/css_intro.asp)
 
-__12. Practice CSS__
+__13. Practice CSS__
 
 You will find a great interactive CSS tutorial on  **Free Code Camp**. Complete  **parts 1-17**  of [Free Code Camp's CSS course](https://learn.freecodecamp.org/responsive-web-design/basic-css)
 
-__13. CSS Zen Garden__
+__14. CSS Zen Garden__
 
 Visit [CSS Zen Garden's website](http://www.csszengarden.com/) and click the "View all Designs" button to see examples of different CSS styles applied to the same HTML document. Additionally, you can download the source code of each example to view its CSS code. View the CSS code on [CSS Zen Garden's website.](http://www.csszengarden.com/)
 
-__14. More CSS Practice__
+__15. More CSS Practice__
 
 Complete  **the remaining sections** of [Free Code Camp's CSS course](https://learn.freecodecamp.org/responsive-web-design/basic-css)
 
-__15. CSS Approaches__
+__16. CSS Approaches__
 
 When writing CSS, using a consistent and organized approach is extremely important. Take a look at a couple of CSS methodologies that might help prevent [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). Read about the following CSS methodologies and consider making use of them in your CSS files:
 
 - [Maintainable CSS](https://maintainablecss.com/chapters/introduction/)
 - [SMACSS](https://smacss.com/book/)
 - [Multilayer CSS](https://operatino.github.io/MCSS/en/)
+
+__17. Build and deploy a website__
+
+Using the skills you learned above:
+* Build a website of your choice, such as...
+  * A portfolio
+  * A shopping list app
+  * An interactive resume
+  * Anything else!
+* Follow [these directions](https://dev.to/roseanna/deploy-and-host-in-30-seconds-with-netlify-drop-hod) to deploy your website using [Netlify Drop](https://app.netlify.com/drop).
 
 ## Conclusion
 The resources above are meant kick-start your experience as a developer. Stay tuned part two, where I will cover more advanced topics.
