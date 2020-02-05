@@ -101,6 +101,14 @@
       margin-right: 0;
     }
     margin-left: 20px;
+    .github-icon {
+      fill: $brand-color;
+      position: relative;
+      top: 4px;
+      &:hover {
+        fill: navy;    
+      }
+    }
   }
 
   @media screen and (min-width: $on-medium) {
@@ -227,9 +235,14 @@
     margin-bottom: $spacing-unit;
     .post-meta {
       margin: .5rem 0;
-      display: inline-block;
+      font-size: $small-font-size;
+      color: $grey-color;
+      font-size: 80%;
+      font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+      display: block;
     }
-    a {
+    .post-link {
+      display: inline-block;
       text-decoration: none;
       h3 {
         margin: 0;
@@ -238,16 +251,7 @@
   }
 }
 
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-  font-size: 80%;
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-}
 
-.post-link {
-  display: block;
-}
 
 
 
@@ -256,6 +260,13 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  .post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+    font-size: 80%;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    display: block;
+  }
 }
 
 .post-title,
@@ -265,6 +276,19 @@
     @include relative-font-size(2.25);
   }
 }
+
+.post.h-entry {
+  .post-content {
+    * {
+      max-width: 700px;
+    }
+    & > img, figure, figure * {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
+
 .h-entry .post-header h1{
   font-family: $base-font-family;
 }
