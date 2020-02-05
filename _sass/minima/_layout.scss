@@ -101,6 +101,14 @@
       margin-right: 0;
     }
     margin-left: 20px;
+    .github-icon {
+      fill: $brand-color;
+      position: relative;
+      top: 4px;
+      &:hover {
+        fill: navy;    
+      }
+    }
   }
 
   @media screen and (min-width: $on-medium) {
