@@ -310,67 +310,37 @@
   }
 }
 
-
 /**
- * Contact section
+ * project examples
  */
-
-.contactSection-emailLink {
-  display: inline-block;
-  padding: .5rem 1.5rem;
-  border-radius: 6px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05);
-  text-decoration: none;
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-  font-size: 18px;
-  letter-spacing: -.5px;
-  color: white;
-  background-color: #1779ba;
-  &:hover, &:focus, &:active {
-    color: white;
-    text-decoration: underline;
-  }
-}
-
-/**
- * Posts section
- */
-
-.postsSection {
-  padding: 2rem 0 3rem 0;
-  border-top: 1px solid $grey-color-light;
-  .post-list {
-    padding-top: .5rem;
-  }
-  .post-list-heading {
-    margin-bottom: .25rem;
-  }
-  .post-list-label {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: #828282;
-  }
-}
-
 
 
 .workSection-projectsWrap {
-  height: 350px;
+  overflow: auto;
   margin-top: 1rem;
   margin-bottom: 3rem;
   width: 100%;
   position: relative;
 }
-.workSection-projectsWrap-title {
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-  color: #828282;
-  margin-bottom: 1rem;
-}
+
 .workSection-project {
-  width: 33.3%;
-  height: 90%;
-  display: inline-block;
-  float: left;
+  max-width: 100%;
+  width: 400px;
+  display: block;
+  margin: auto;
+  margin-bottom: 3rem;
+  &:last-of-type {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .workSection-project {
+    float: left;
+    max-width: 33.33%;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
 }
 
 .workSection-project-window {
@@ -380,7 +350,6 @@
   position: relative;
   border-radius: 5px;
   overflow: hidden;
-  // margin-bottom: 2rem;
   border-radius: 3px;
   box-shadow: 0px 2px 7px 3px rgba(0,0,0,0.05);
   .workSection-project-header {
@@ -417,39 +386,86 @@
       background: gray;
       &.close {
         background-color: rgb(255,95,86);
-        left: 13px;
+        left: 11px;
       }
       &.minimize {
         background-color: rgb(255,189,46);
-        left: 33px;
+        left: 29px;
       }
       &.fullScreen {
         background-color: rgb(39,201,63);
-        left: 53px;
+        left: 47px;
       }
     }
   }
 
   .workSection-project-body {
     background-color: #37e6bd;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100%;
-    padding-top: 30px;
-    position: absolute;
-    overflow: auto;
   }
 
 }
 
 .workSection-project-description {
-  // box-shadow: 0px 2px 7px 3px rgba(0,0,0,0.05);
-  width: 98%;
+  width: 95%;
+  margin: auto;
+  display: block;
   background: white;
-  text-align: left;
-  // border: .5px solid #e5e5e5;
-  padding: .5rem;
-  border-radius: 5px;
-  position: relative;
-  // bottom: 20px;
-  left: 1%;
+  margin-top: 1rem;
+  text-align: center;
+  p, span {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 85%;
+    color: #828282;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .workSection-project-description {
+    text-align: left;
+  }
+}
+
+/**
+ * Posts section
+ */
+
+.postsSection {
+  padding: 2rem 0 3rem 0;
+  border-top: 1px solid $grey-color-light;
+  .post-list {
+    padding-top: .5rem;
+  }
+  .post-list-heading {
+    margin-bottom: .25rem;
+  }
+  .post-list-label {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #828282;
+  }
+}
+
+/**
+ * Contact section
+ */
+
+.contactSection-emailLink {
+  display: inline-block;
+  padding: .5rem 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05);
+  text-decoration: none;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 18px;
+  letter-spacing: -.5px;
+  color: white;
+  background-color: #1779ba;
+  &:hover, &:focus, &:active {
+    color: white;
+    text-decoration: underline;
+  }
 }
