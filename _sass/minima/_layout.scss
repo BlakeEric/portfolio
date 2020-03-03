@@ -47,6 +47,9 @@
   background-color: $background-color;
   border-radius: 3px;
   text-align: right;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05);
+  border-radius: 3px;
 
   .nav-trigger {
     display: none;
@@ -54,12 +57,10 @@
 
   .trigger {
     text-align: left;
+    padding: .5rem;
     a {
       margin-left: 0;
     }
-    border-radius: 3px;
-    box-shadow: 0 3px 12px rgba(27,31,35,.15), 0 0 1px rgba(27,31,35,.2);
-    padding: .5rem;
   }
 
   .menu-icon {
