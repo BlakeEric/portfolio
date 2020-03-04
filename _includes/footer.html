@@ -8,7 +8,7 @@
         <ul class="contact-list">
           <li class="p-name">{{ site.title | escape }}</li>
           {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}
         </ul>
       </div>
@@ -27,9 +27,5 @@
 </footer>
 
 
-
-<!-- Matomo Image Tracker-->
-<img src="https://blakelundquist.matomo.cloud/matomo.php?idsite=1&amp;rec=1&amp;action_name={{ page.title }}" style="border:0" alt="" />
-<!-- End Matomo -->
 
 <script src="{{ base.url | prepend: site.url }}/assets/scripts/index.js"></script>
