@@ -41,11 +41,11 @@ __6. Using Stack Overflow__
 
 __7. What is HTML?__
 
-**HyperText Markup Language's** job is to format information in a way that makes sense when viewed in a web browser. **HTML** describes the structure and purpose of web content. Read [Mozilla's introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+**HyperText Markup Language's** job is to format information in a way that makes sense when viewed in a web browser. **HTML** describes the structure and purpose of web content. Read [Mozilla's introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
 __8. Practice some plain HTML__
 
-Complete the [Codecademy HTML course](https://www.codecademy.com/learn/learn-html)
+Complete the [Codecademy HTML course](https://www.codecademy.com/learn/learn-html).
 
 __9. Introduction to the DOM__
 
@@ -53,7 +53,7 @@ JavaScript enhances webpages by providing all sorts of extra features that canâ€
 
 __10. Integrating JS + HTML__
 
-Use HTML and JavaScript together to create an interactive webpage by finishing the remaining sections on **Watch and Code**. Complete the remaining lessons on [Watch and Code](https://watchandcode.com/p/practical-javascript)
+Use HTML and JavaScript together to create an interactive webpage by finishing the remaining sections on **Watch and Code**. Complete the remaining lessons on [Watch and Code](https://watchandcode.com/p/practical-javascript).
 
 ## Add Some CSS
 
