@@ -110,22 +110,26 @@ jsarr:
     </div>
 
     <div class="workSection-projectsWrap">
+
+      <!-- Move to css -->
+      <h4 style="font-weight:400;margin-bottom: 2rem;font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;color: #828282;">Recent Projects</h4>
+
       <div class="workSection-project">
         <div class="workSection-project-window">
           <div class="workSection-project-header">
-            <div class="title"><a target="_blank" href="https://broadandliberty.com/">Broad and Liberty &rarr;</a></div>
+            <div class="title"><a target="_blank" href="https://apollo-11.now.sh/">Apollo 11 &rarr;</a></div>
             <span class="icon close"></span>
             <span class="icon minimize"></span>
             <span class="icon fullScreen"></span>
           </div>
           <div class="workSection-project-body">
-            <img width="550" alt="Broad and Liberty Website Screenshot" src="https://res.cloudinary.com/hwm0fktg3/image/upload/v1583094415/blakeeric/bandlscreenshot.png" />
+            <img width="550" alt="Apollo 11 Website Screenshot" src="https://res.cloudinary.com/hwm0fktg3/image/upload/v1585943169/screenshot.png" />
           </div>
         </div>
         <div class="workSection-project-description">
-          <h4>Broad and Liberty</h4>
-          <p>A WordPress theme for Broad and Liberty, a non-profit publication with a conservative slant meant to create dialogue between individuals of various political viewpoints.</p>
-          <span><em>PHP, Vanilla JS, CSS</em></span>
+          <h4>Apollo 11</h4>
+          <p>An exploration in accessible, interactive, educational content with vanilla JavaScript.</p>
+          <span><em>Vanilla JS, HTML, CSS</em></span>
         </div>
       </div>
 
@@ -138,7 +142,9 @@ jsarr:
             <span class="icon fullScreen"></span>
           </div>
           <div class="workSection-project-body">
-            <img width="550" alt="Carbon Yeti's House Website Screenshot" src="https://res.cloudinary.com/hwm0fktg3/image/upload/v1583092754/blakeeric/carbonyetiscreenshot.jpg" />
+            <a target="blank" href="http://apps.bellevuewa.gov/yetihouse/">
+              <img width="550" alt="Carbon Yeti's House Website Screenshot" src="https://res.cloudinary.com/hwm0fktg3/image/upload/v1583092754/blakeeric/carbonyetiscreenshot.jpg" />
+            </a>
           </div>
         </div>
         <div class="workSection-project-description">
@@ -148,26 +154,44 @@ jsarr:
         </div>
       </div>
 
-      <div class="workSection-project">
-        <div class="workSection-project-window">
-          <div class="workSection-project-header">
-            <div class="title"><a target="_blank" href="better-angels.org/library/">Better Angels Library &rarr;</a></div>
-            <span class="icon close"></span>
-            <span class="icon minimize"></span>
-            <span class="icon fullScreen"></span>
-          </div>
-          <div class="workSection-project-body">
-            <img width="550" alt="Better Angels Website Screenshot" src="https://res.cloudinary.com/hwm0fktg3/image/upload/v1583096316/betterangelsscreenshot.png" />
-          </div>
-        </div>
+      <div class="workSection-project workSection-tools">
         <div class="workSection-project-description">
-          <h4>Better Angels Library</h4>
-          <p>A WordPress implementation allowing members to view and submit reviews for books discussing the topic of political polarization in the United States.</p>
-          <span><em>PHP, Vanilla JS, CSS</em></span>
+          <h3 class="workSection-tools-header">Tools</h3>
+          <div class="workSection-tools-item">
+            <h4>
+              <a href="https://github.com/BlakeEric/wp-engine-starter" target="_blank" rel="nofollow">
+                <svg class="github-icon" height="22" viewBox="0 0 16 16" version="1.1" width="22" aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                  </path>
+                </svg>
+                wp-engine-starter
+              </a>
+            </h4>
+            <p>WordPress development is the worst. This is a starter repo meant to make WordPress development more DRY and to integrate projects more easily with WP Engine using modern dev practices.</p>
+            <span><em>PHP, Vanilla JS, CSS</em></span>
+          </div>
+
+          <hr />
+
+          <div class="workSection-tools-item">
+            <h4>
+              <a href="https://github.com/BlakeEric/wp-instagram-feed" target="_blank" rel="nofollow">
+                <svg class="github-icon" height="22" viewBox="0 0 16 16" version="1.1" width="22" aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                  </path>
+                </svg>
+                wp-instagram-feed
+              </a>
+            </h4>
+            <p>Simple WordPress mu-plugin to consume Instagram post data asynchronously.</p>
+            <span><em>PHP, jQuery</em></span>
+          </div>
         </div>
       </div>
-
     </div>
+
     <a class="contactSection-githubLink" target="_blank" href="https://github.com/BlakeEric">
       <svg class="github-icon" height="22" viewBox="0 0 16 16" version="1.1" width="22" aria-hidden="true">
         <path fill-rule="evenodd"

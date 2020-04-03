@@ -334,12 +334,31 @@
   }
 }
 
+.workSection-tools {
+  hr {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+  }
+  svg {
+    position: relative;
+    top: 3px;
+    fill: #0f4d76;
+    height: 20px;
+  }
+  .workSection-project-description, .workSection-tools-header {
+    margin-top: 0;
+  }
+}
+
 @media screen and (min-width: 900px) {
   .workSection-project {
     float: left;
     max-width: 33.33%;
     display: inline-block;
     margin-bottom: 1rem;
+    padding: 0 .25rem;
   }
 }
 
