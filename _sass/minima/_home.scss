@@ -480,16 +480,22 @@
   letter-spacing: -.5px;
   color: white;
   background-color: #1779ba;
+  border: 1.5px solid #1779ba;
   &:visited {
     color: white;
-  }
-  &:hover, &:focus, &:active {
-    color: white;
-    text-decoration: underline;
   }
   .github-icon {
     fill: white;
     position: relative;
     top: 3px;
   }
+  &:hover, &:focus {
+    color: #1779ba;
+    background: white;
+    text-decoration: none;
+    .github-icon {
+      fill: #1779ba;
+    }
+  }
+
 }
