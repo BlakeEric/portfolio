@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Light-weight Alternatives to React"
+title: "Lightweight Alternatives to React"
 date: 2020-02-07 11:11:07 -0700
 ---
 
 ## Alternative frameworks that utilize the developer-friendly patterns of React without breaking the bank.
 <!--more-->
 
-React is the developer’s equivalent of Avocado Toast. It’s great, but it’s expensive and has a lot of unnecessary toppings. React rewrites a lot of native browser functionality with features like the Virtual DOM, and synthetic browser events. This practice negatively impacts SEO, progressive enhancement and initial load time. Read on for some light-weight alternatives that still allow for a rich user experience.
+React is the developer’s equivalent of Avocado Toast. It’s great, but it’s expensive and has a lot of unnecessary toppings. React rewrites a lot of native browser functionality with features like the Virtual DOM and synthetic browser events. This practice negatively impacts SEO, progressive enhancement and initial load time. Read on for some light-weight alternatives that still allow for a rich user experience.
 
 ### Vanilla JS
 
-Who said you had to use a front-end framework? For a lot of projects, the most efficient way to handle DOM manipulation is with regular-old Javascript. Relatively recent updates such as the [Selectors API](https://www.w3.org/TR/selectors-api/) have made vanilla JS much more user-friendly, and you don’t have to worry about accidentally including code for features you don’t need.
+Who said you had to use a front-end framework? For a lot of projects, the most efficient way to handle DOM manipulation is with regular-old JavaScript. Relatively recent updates such as the [Selectors API](https://www.w3.org/TR/selectors-api/) have made vanilla JS much more user-friendly, and you don’t have to worry about accidentally including code for features you don’t need.
 
 ### Preact
 
