@@ -7,6 +7,8 @@ date: 2019-12-07 15:59:17 -0700
 ## If you prioritize accessibility, usability, and privacy in front-end development, then Google Analytics is not your friend.
 <!--more-->
 
+[View the original article on codeburst](https://codeburst.io/you-dont-need-google-analytics-9d15bed23b4c)
+
 Have you ever noticed how much JavaScript gets loaded on big news sites? As of this writing, [Wired's website](https://wired.com) loads __over 3MB of Javascript files alone__, making it almost unusable for anyone with a slow internet connection. Tracking scripts provided by Google, Facebook, and their friends are responsible for a large portion of this bloat. These scripts are used to monitor your behavior around the internet, ensuring that the ads you see are a sufficiently creepy reflection of your browsing history.
 
 I used to work for a small design/development agency where adding the Google Analytics script to websites served as our stamp of completion before a project was turned over to a client. Even though most clients only used the platform to track page views (or not at all), we always included it because we assumed “they might need it, someday.” That is the same logic you would use to convince yourself not to throw away the pair fingerless gloves from that 80’s office party seven years ago.

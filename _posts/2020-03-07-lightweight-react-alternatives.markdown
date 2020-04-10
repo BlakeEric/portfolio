@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Lightweight Alternatives to React"
-date: 2020-02-07 11:11:07 -0700
+date: 2020-03-06 11:11:07 -0700
 ---
 
 ## Alternative frameworks that utilize the developer-friendly patterns of React without breaking the bank.
 <!--more-->
+
+[View the original article on codeburst](https://codeburst.io/lightweight-alternatives-to-react-926d0948f1d7)
 
 React is the developer’s equivalent of Avocado Toast. It’s great, but it’s expensive and has a lot of unnecessary toppings. React rewrites a lot of native browser functionality with features like the Virtual DOM and synthetic browser events. This practice negatively impacts SEO, progressive enhancement and initial load time. Read on for some light-weight alternatives that still allow for a rich user experience.
 
