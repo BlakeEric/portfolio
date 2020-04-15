@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "How to Be a More Ethical Developer in 2020"
-date: 2019-12-17 15:59:17 -0700
+date: 2020-04-15 08:59:17 -0700
 ---
 
 ## By using a “simple-first” approach, front-end developers can create a healthier internet.
 <!--more-->
+
+[View the original article on JavaScript in Plain English](https://medium.com/javascript-in-plain-english/how-you-can-become-a-more-ethical-developer-in-2020-a96efb803f3e)
 
 The last couple of years have not been pretty for the tech industry. With the average user growing more wary of how their online data is being used and more frustrated by disruptive online advertising, how can developers work to create a safer, more useful, and more ethical web in 2020?
 
@@ -49,7 +51,7 @@ By using a humble html link, we not only protect the user’s privacy, but also 
 
 * __Use native browser functionality when possible__ - JavaScript frameworks like React and Vue offer a lot of useful features, but these should be carefully weighed against the features web browsers provide by default. The react-router package, for example, performs the same basic functionality as the navigation built into all web browsers while being more likely to cause usability issues in older versions. If there is a clear benefit to using a third-party package--by all means--use it. But first find out if the same functionality is possible using simple HTML, CSS, and vanilla JavaScript on the front end.
 
-* __Only gather user data if you need it__ - Collecting usage data is important if you are trying to determine whether or not the goals of your content are being met. However, you can choose an analytics service that only gathers the data necessary to measure these goals. Google Analytics collects way more data than is needed to analyze traffic on the vast majority of websites, and its respect for user privacy is [questionable](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea). Try skipping JS-based analytics by using [GoAccess](https://goaccess.io/) to analyze your server logs, or use [Matomo](https://matomo.org/) for a lighter analytics platform with a more responsible privacy policy.
+* __Only gather user data if you need it__ - Collecting usage data is important if you are trying to determine whether or not the goals of your content are being met. However, you can choose an analytics service that only gathers the data necessary to measure these goals. Google Analytics collects way more data than is needed to analyze traffic on the vast majority of websites, and its respect for user privacy is [questionable](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea). Try skipping JS-based analytics by using [GoAccess](https://goaccess.io/) to analyze your server logs, or use [Matomo](https://matomo.org/) for a lighter analytics platform with a more responsible privacy policy. I address these options in more detail in a [separate article]({% post_url 2019-12-07-you-dont-need-google-analytics %}).
 
 * __Rethink advertising__ - Sites that use Google and Facebook’s advertising platforms end up being slow, bloated behemoths that are inaccessible to users who don’t have the latest gadgets. These scripts stalk users around the internet to establish eerily detailed advertising profiles. Luckily, there are more respectable advertising solutions like [Codefund](https://codefund.io/), as well as [alternative methods of monetizing your content](https://hackernoon.com/monetize-your-website-without-advertising-email-hcaptcha-recaptcha-brave-f266e905510a).
 

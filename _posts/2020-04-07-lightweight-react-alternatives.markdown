@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lightweight Alternatives to React"
-date: 2020-03-06 11:11:07 -0700
+date: 2020-04-07 11:11:07 -0700
 ---
 
 ## Alternative frameworks that utilize the developer-friendly patterns of React without breaking the bank.
