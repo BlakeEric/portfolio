@@ -28,4 +28,7 @@
 
 
 
-<script src="{{ base.url | prepend: site.url }}/assets/scripts/index.js"></script>
+<script src="{{ base.url | prepend: site.url }}/assets/scripts/smooth-scroll.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
