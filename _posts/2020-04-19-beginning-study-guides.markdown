@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Free Web Development Beginner Study Guides"
-date: 2020-01-24 12:19:07 -0700
+title: "Build Your First Website Starting Right Now"
+date: 2020-04-19 12:19:07 -0700
 ---
 
-## Sixteen free steps to get started in web development.
+## Stuck inside? Here are sixteen (free) steps to get started in web development.
 <!--more-->
+
+[View the original article on Codeburst](https://codeburst.io/build-your-first-website-starting-right-now-37186fcb3129)
 
 This is the roadmap I wish I had when I first started coding: a sequential list of free, quality resources designed to help beginners get started in front-end web development. There are tons of great free resources out there, but it’s hard to know where to start, what to learn, and how to use those skills in the real world. These study guides cover the basics of JavaScript, HTML, and CSS using what I’ve found to be the most effective online learning platforms.
 
