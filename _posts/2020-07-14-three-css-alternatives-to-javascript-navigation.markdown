@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Three CSS Alternatives to JavaScript Navigation"
+title: "Three CSS Alternatives to JavaScript Navigation"
 date: 2020-07-14 12:19:07 -0700
 ---
 
