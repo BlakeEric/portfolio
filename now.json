@@ -1,8 +1,5 @@
 {
   "name": "portfolio",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "redirects": [
-    { "source": "/resume", "destination": "/resume.pdf" }
-  ]
+  "trailingSlash": false
 }
